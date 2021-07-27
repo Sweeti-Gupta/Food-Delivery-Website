@@ -1,0 +1,101 @@
+/* Navigation bar */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding-bottom:8px;
+    padding:0px 7px;
+}
+
+/* Home-Section */
+#home{
+    height:365px;
+    padding:5px 16px;
+}
+
+#home::before{
+    height:480px;
+}
+
+#logo img{
+    height:40px;
+}
+
+#home p{
+    font-size: 18px;
+}
+
+#home h2{
+    font-size: 22px;
+}
+
+/* Services-Section */
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    padding:15px;
+    margin:4px 0px;
+    margin-bottom:18px;
+}
+
+/* Client-Section */
+#reviews{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+}
+
+.reviews-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:12px;
+}
+
+#reviews img{
+    padding:5px;
+    height:300px;
+    width:150px;
+    border-radius: 90%;
+}
+
+#reviews .reverse{
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-reviews{
+    font-size:1rem;
+    padding:3px;
+    text-align: center;
+    /* margin:30px; */
+}
+
+.reviewers h1{
+    margin-left: 240px;;
+}
+
+/* Contact-Us Section */
+#contact-box form{
+    width:80%;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-size: 28px;
+}
+
+.btn{
+    font-size:11px;
+    padding:3px 6px;
+}
+
